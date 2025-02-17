@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <div class="box">
+        <input type="text" name="ekran" id="ekran">
+        <br>
+        <div class="bola">
+            <input type="button" value="7" onclick="ekran.value+=7">
+            <input type="button" value="8" onclick="ekran.value+=8">
+            <input type="button" value="9" onclick="ekran.value+=9">
+            <input type="button" value="*" onclick="ekran.value+='*'">
+        </div>
+        <div class="bola">
+            <input type="button" value="4" onclick="ekran.value+=4">
+            <input type="button" value="5" onclick="ekran.value+=5">
+            <input type="button" value="6" onclick="ekran.value+=6">
+            <input type="button" value="/" onclick="ekran.value+='/'">
+        </div>
+        <div class="bola">
+            <input type="button" value="1" onclick="ekran.value+=1">
+            <input type="button" value="2" onclick="ekran.value+=2">
+            <input type="button" value="3" onclick="ekran.value+=3">
+            <input type="button" value="-" onclick="ekran.value+='-'">
+        </div>
+        <div class="bola">
+            <input type="button" value="0" onclick="ekran.value+=0">
+            <input type="button" value="." onclick="ekran.value+='.'">
+            <input type="button" value="%" onclick="ekran.value+='%'">
+            <input type="button" value="+" onclick="ekran.value+='+'">
+        </div>
+        <div class="bola">
+            <input type="button" value="del" onclick="del()">
+            <input type="button" value="AC" onclick="clearEkran()">
+            <input type="button" value="=" class="q" onclick="hisobla()">
+        </div>
+    </div>
+
+
+    <script src="./aa.js">
+
+    </script>
+</body>
+</html>
